@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15DEEB5E529121AA4B03B553 /* Pods_PicTaggerImagga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A190F22E61690FF88BDBE12 /* Pods_PicTaggerImagga.framework */; };
 		63D35395208FB7F300D77FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D35394208FB7F300D77FFD /* AppDelegate.swift */; };
 		63D35397208FB7F300D77FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D35396208FB7F300D77FFD /* ViewController.swift */; };
-		63D3539A208FB7F300D77FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D35398208FB7F300D77FFD /* Main.storyboard */; };
 		63D3539C208FB7F300D77FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D3539B208FB7F300D77FFD /* Assets.xcassets */; };
 		63D3539F208FB7F300D77FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D3539D208FB7F300D77FFD /* LaunchScreen.storyboard */; };
+		63D353A9208FB8CB00D77FFD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63D353A8208FB8CB00D77FFD /* Info.plist */; };
+		63D353AB208FBAB500D77FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D353AA208FBAB500D77FFD /* Main.storyboard */; };
+		63D353AD208FC7D400D77FFD /* cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D353AC208FC7D400D77FFD /* cow.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1EA0319F3296C306E01E45 /* Pods-PicTaggerImagga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicTaggerImagga.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicTaggerImagga/Pods-PicTaggerImagga.debug.xcconfig"; sourceTree = "<group>"; };
+		3947B1ECE721E27A4177EA01 /* Pods-PicTaggerImagga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicTaggerImagga.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicTaggerImagga/Pods-PicTaggerImagga.release.xcconfig"; sourceTree = "<group>"; };
+		3A190F22E61690FF88BDBE12 /* Pods_PicTaggerImagga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicTaggerImagga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D35391208FB7F300D77FFD /* PicTaggerImagga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicTaggerImagga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D35394208FB7F300D77FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D35396208FB7F300D77FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63D35399208FB7F300D77FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D3539B208FB7F300D77FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D3539E208FB7F300D77FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		63D353A0208FB7F300D77FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D353A8208FB8CB00D77FFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D353AA208FBAB500D77FFD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		63D353AC208FC7D400D77FFD /* cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cow.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DEEB5E529121AA4B03B553 /* Pods_PicTaggerImagga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FAFC24B35F3D1A5131E26CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A190F22E61690FF88BDBE12 /* Pods_PicTaggerImagga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E8F8651536DC0B2FB8CE966 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E1EA0319F3296C306E01E45 /* Pods-PicTaggerImagga.debug.xcconfig */,
+				3947B1ECE721E27A4177EA01 /* Pods-PicTaggerImagga.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		63D35388208FB7F300D77FFD = {
 			isa = PBXGroup;
 			children = (
 				63D35393208FB7F300D77FFD /* PicTaggerImagga */,
 				63D35392208FB7F300D77FFD /* Products */,
+				4E8F8651536DC0B2FB8CE966 /* Pods */,
+				1FAFC24B35F3D1A5131E26CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +83,11 @@
 			children = (
 				63D35394208FB7F300D77FFD /* AppDelegate.swift */,
 				63D35396208FB7F300D77FFD /* ViewController.swift */,
-				63D35398208FB7F300D77FFD /* Main.storyboard */,
+				63D353AA208FBAB500D77FFD /* Main.storyboard */,
 				63D3539B208FB7F300D77FFD /* Assets.xcassets */,
 				63D3539D208FB7F300D77FFD /* LaunchScreen.storyboard */,
-				63D353A0208FB7F300D77FFD /* Info.plist */,
+				63D353A8208FB8CB00D77FFD /* Info.plist */,
+				63D353AC208FC7D400D77FFD /* cow.jpg */,
 			);
 			path = PicTaggerImagga;
 			sourceTree = "<group>";
@@ -71,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D353A3208FB7F300D77FFD /* Build configuration list for PBXNativeTarget "PicTaggerImagga" */;
 			buildPhases = (
+				210A7F16ACC273D145EE76F5 /* [CP] Check Pods Manifest.lock */,
 				63D3538D208FB7F300D77FFD /* Sources */,
 				63D3538E208FB7F300D77FFD /* Frameworks */,
 				63D3538F208FB7F300D77FFD /* Resources */,
+				22C3D54EC3C9BA44AE3F4249 /* [CP] Embed Pods Frameworks */,
+				34FB76DC369C5A37E92F62C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +155,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D3539F208FB7F300D77FFD /* LaunchScreen.storyboard in Resources */,
+				63D353AB208FBAB500D77FFD /* Main.storyboard in Resources */,
 				63D3539C208FB7F300D77FFD /* Assets.xcassets in Resources */,
-				63D3539A208FB7F300D77FFD /* Main.storyboard in Resources */,
+				63D353A9208FB8CB00D77FFD /* Info.plist in Resources */,
+				63D353AD208FC7D400D77FFD /* cow.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		210A7F16ACC273D145EE76F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicTaggerImagga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22C3D54EC3C9BA44AE3F4249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PicTaggerImagga/Pods-PicTaggerImagga-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicTaggerImagga/Pods-PicTaggerImagga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34FB76DC369C5A37E92F62C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicTaggerImagga/Pods-PicTaggerImagga-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63D3538D208FB7F300D77FFD /* Sources */ = {
@@ -144,14 +233,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63D35398208FB7F300D77FFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63D35399208FB7F300D77FFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63D3539D208FB7F300D77FFD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +353,7 @@
 		};
 		63D353A4208FB7F300D77FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1EA0319F3296C306E01E45 /* Pods-PicTaggerImagga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +369,7 @@
 		};
 		63D353A5208FB7F300D77FFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3947B1ECE721E27A4177EA01 /* Pods-PicTaggerImagga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
