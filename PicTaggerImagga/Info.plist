@@ -47,6 +47,6 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>plz select photo to upload in ima gga</string>
+	<string>plz select photo to upload in imagga</string>
 </dict>
 </plist>
